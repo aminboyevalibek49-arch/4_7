@@ -63,20 +63,6 @@ app.delete("/laptops/:id", (req, res) => {
   res.json({ message: "Deleted" });
 });
 
-// PRODUCTS
-const products = "products.json";
-app.get("/products", (req, res) => {
-  res.json(read_file(products));
-});
-
-app.post("/products", (req, res) => {
-  const data = read_file(products);
-  data.push(req.body);
-  write_file(products, data);
-
-  res.json({ message: "Added" });
-});
-
 // Subjects
 const Subjects = "Subjects.json";
 app.get("/Subjects", (req, res) => {
