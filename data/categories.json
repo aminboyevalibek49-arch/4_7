@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Transport",
+    "price": "1000$-100000$"
+  },
+  {
+    "id": 2,
+    "name": "Elektronika",
+    "price": "100$-10000$"
+  },
+  {
+    "id": 3,
+    "name": "Mevalar",
+    "price": "5000-15000"
+  }
+]

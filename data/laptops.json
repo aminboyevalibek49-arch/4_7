@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "hp ommnibook",
+    "price": "800$"
+  },
+  {
+    "id": 2,
+    "name": "acer",
+    "price": "600$"
+  },
+  {
+    "id": 3,
+    "name": "macbook",
+    "price": "1000$"
+  }
+]
